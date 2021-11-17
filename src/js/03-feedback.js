@@ -4,7 +4,7 @@ const refs = {
   textarea: document.querySelector('.feedback-form textarea'),
   input: document.querySelector('.feedback-form input'),
 };
-const STORAGE_KEY = 'feedba0ck-form-state';
+const STORAGE_KEY = 'feedback-form-state';
 
 let formData = {};
 refs.form.addEventListener('submit', onFormSubmit);
