@@ -18,7 +18,7 @@ function onFormSubmit(evt) {
   localStorage.removeItem(STORAGE_KEY);
 }
 
-function onTextareaInput(evt) 
+function onTextareaInput(evt) {
   formData[refs.textarea.name] = refs.textarea.value;
   formData[refs.input.name] = refs.input.value;
   const saveDataEl = JSON.stringify(formData);
